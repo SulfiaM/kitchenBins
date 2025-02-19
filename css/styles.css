@@ -1,0 +1,3889 @@
+@charset "UTF-8";
+
+.is-srOnly {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important; }
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+[hidden] {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */ }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+body {
+  background: white;
+  color: #4f4f4f;
+  cursor: auto;
+  margin: 0;
+  padding: 0;
+  position: relative; }
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; }
+
+a:hover {
+  cursor: pointer; }
+
+figure {
+  margin: 0 0 1.5rem; }
+
+img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle; }
+
+img {
+  -ms-interpolation-mode: bicubic; }
+
+button {
+  background: none;
+  border: 0; }
+  button:active, button:focus {
+    box-shadow: none;
+    outline: none; }
+
+div,
+ul,
+li,
+h2,
+h4,
+h5,
+form,
+p {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 14px; }
+  @media (min-width: 551px) {
+    html {
+      font-size: 14px; } }
+  @media (min-width: 750px) {
+    html {
+      font-size: 14px; } }
+  @media (min-width: 1261px) {
+    html {
+      font-size: 14px; } }
+
+body {
+  font-family: "Karla", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.5; }
+
+a {
+  color: #4f4f4f;
+  line-height: inherit;
+  text-decoration: underline; }
+  a:hover, a:focus {
+    color: #a5a5a5; }
+
+p {
+  margin-bottom: 1.5rem; }
+
+
+h2,
+h4,
+h5 {
+  color: #2d2d2d;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  margin-bottom: 0.78571rem; }
+
+h2 {
+  font-size: 25px; }
+
+h4 {
+  font-size: 20px; }
+
+h5 {
+  font-size: 15px; }
+
+
+i {
+  font-style: italic;
+  line-height: inherit; }
+
+strong,
+b {
+  font-weight: 700;
+  line-height: inherit; }
+
+ul {
+  list-style-position: outside;
+  margin-bottom: 1.5rem; }
+
+ul ul {
+  margin-left: 1.2rem;
+  margin-bottom: 0; }
+
+ul {
+  margin-left: 1.15rem; }
+
+.icon {
+  height: 1.14286rem;
+  width: 1.14286rem;
+  display: inline-block;
+  vertical-align: middle; }
+  .icon svg {
+    display: inline-block;
+    fill: #4f4f4f;
+    height: 100%;
+    vertical-align: top;
+    width: 100%; }
+
+/*doc
+---
+title: Lists
+name: lists
+category: Elements
+---
+
+*/
+/*doc
+---
+title: Inline List
+name: inline_list
+category: Elements
+parent: lists
+---
+
+
+```html_example
+<ul class="inlineList">
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+    <li><a href="#">Link 3</a></li>
+    <li><a href="#">Link 4</a></li>
+    <li><a href="#">Link 5</a></li>
+</ul>
+```
+##### Inline list settings
+```sass_file_example
+src/settings/foundation/inlineList/_settings.scss
+```
+
+*/
+
+/*doc
+---
+title: Tables
+name: tables
+category: Elements
+---
+
+
+```html_example
+<table class="table">
+    <thead class="table-thead">
+        <tr>
+            <th>Table Header</th>
+            <th>Table Header</th>
+            <th class="table-header--numericData" scope="column">Totals</th>
+        </tr>
+    </thead>
+    <tbody class="table-tbody">
+        <tr>
+            <td>Content Goes Here</td>
+            <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
+            <td class="table-cell--numericData">$10</td>
+        </tr>
+    </tbody>
+    <tfoot class="table-tfoot">
+        <tr>
+            <td class="table-cell--numericData" colspan="2">Subtotal:</td>
+            <td class="table-cell--numericData"><strong>$60</strong></td>
+        </tr>
+    </tfoot>
+</table>
+```
+##### Tables settings
+```sass_file_example
+src/settings/foundation/tables/_settings.scss
+```
+
+*/
+
+/*doc
+---
+title: Buttons
+name: button
+category: Components
+---
+
+These are all the button
+
+```sass_file_example
+src/settings/foundation/buttons/_settings.scss
+```
+
+```html_example
+<button class="button">Button</button>
+
+<input type="submit" class="button" value="Button">
+
+<a class="button" role="button" href="#">Button</a>
+```
+
+*/
+.button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 0 1rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+  border-color: #dfdfdf;
+  color: #454545;
+  font-size: 1rem;
+  padding: 0.85714rem 2.28571rem;
+  border-radius: 4px;
+  outline: none;
+  vertical-align: middle; }
+  .button:hover, .button:focus {
+    background-color: transparent;
+    border-color: #989898;
+    color: #666666; }
+  .button:active {
+    background-color: transparent;
+    border: 1px solid #454545;
+    color: #454545; }
+  .button:focus {
+    outline: none; }
+  @media (min-width: 481px) {
+    .button + .button {
+      margin-left: 0.78571rem; } }
+
+/*doc
+---
+title: Button states
+name: button_states
+category: Components
+parent: button
+---
+
+```html_example
+<button class="button button--primary">Primary Button</button>
+
+<button class="button">Secondary / Default Button</button>
+
+<button class="button button--tertiary">Tertiary Button</button>
+
+<button class="button button--action">Call-to-Action Button</button>
+```
+    */
+.button--primary {
+  background-color: #454545;
+  border-color: #454545;
+  color: white; }
+  .button--primary:hover, .button--primary:focus {
+    background-color: #666666;
+    border-color: #666666;
+    color: white; }
+  .button--primary:active {
+    background-color: #989898;
+    border: 1px solid #989898;
+    color: white; }
+
+/*doc
+---
+title: Button sizes
+name: button_sizes
+category: Components
+parent: button
+---
+
+```html_example
+<button class="button button--large">Large</button>
+
+<button class="button">Default</button>
+
+<button class="button button--small">Small</button>
+
+<button class="button button--tiny">Tiny</button>
+```
+
+And a special case, slab, which takes the full width of it's container and any
+size modifier
+
+```html_example
+<button class="button button--slab">Slab</button>
+
+<button class="button button--slab button--large">Slab</button>
+```
+
+*/
+
+/*doc
+---
+title: Button Groups
+name: button_groups
+category: Components
+parent: button
+---
+
+
+```html_example
+<div class="buttonGroup">
+    <button class="button">Button1</button>
+    <button class="button">Button2</button>
+    <button class="button">Button3</button>
+</div>
+```
+##### Button group settings
+```sass_file_example
+src/settings/bigcommerce/buttonGroup/_settings.scss
+```
+
+*/
+
+/*doc
+---
+title: Dropdowns
+name: dropdown
+category: Components
+---
+
+Dropdowns are simple lists that can appear next to any element that can trigger a click event.
+They can be used by buttons, icons, links and other similar items.
+
+```sass_file_example
+src/settings/foundation/dropdown/_settings.scss
+```
+```html_example
+<ul class="dropdown-menu" style="display:block; left: 0;">
+    <li class="dropdown-menu-item"><a href="#" ng-click="$event.preventDefault()">One</a></li>
+    <li class="dropdown-menu-item"><a href="#" ng-click="$event.preventDefault()">Two</a></li>
+    <li class="dropdown-menu-item"><a href="#" ng-click="$event.preventDefault()">Three</a></li>
+</ul>
+```
+*/
+.dropdown-menu {
+  display: none;
+  left: -9999px;
+  list-style: none;
+  margin-left: 0;
+  position: absolute;
+  background: #e8e8e8;
+  font-size: 1rem;
+  height: auto;
+  width: 100%;
+  z-index: 89;
+  max-width: 200px; }
+  .dropdown-menu.open {
+    display: block; }
+  .dropdown-menu > *:first-child {
+    margin-top: 0; }
+  .dropdown-menu > *:last-child {
+    margin-bottom: 0; }
+
+/*doc
+---
+title: Forms
+name: forms
+category: Forms
+---
+
+##### Foundation Forms settings
+```sass_file_example
+src/settings/foundation/forms/_settings.scss
+```
+
+##### Citadel Forms settings
+```sass_file_example
+src/settings/foundation/forms/_settings.scss
+```
+
+*/
+/*doc
+---
+title: Form basics
+name: 01forms_basics
+category: Forms
+parent: forms
+---
+
+Citadel comes with styling for most form input types and some custom ones. To start
+things off a basic, semantic mark-up structure should be adhered too, including
+the `form`, `fieldset` and `legend` elements where ever possible.
+
+```html_example
+<form action="#" class="form">
+    <fieldset class="form-fieldset">
+        <legend class="form-legend">Form legend</legend>
+    </fieldset>
+</form>
+```
+
+*/
+.form {
+  margin: 0 0 1.5rem; }
+
+.form-fieldset {
+  border-width: 0;
+  margin: 0;
+  padding: 0; }
+
+/*doc
+---
+title: Form labels and inputs
+name: 03forms_basics
+category: Forms
+parent: forms
+---
+
+Inputs of all types should be associated with a label which has a `for` attribute
+
+```html_example
+<div class="form-field">
+    <label class="form-label" for="input1">Input Label</label>
+    <input class="form-input" id="input1" type="text" placeholder="Placeholder text">
+</div>
+<div class="form-field">
+    <label class="form-label" for="input2">Number Label</label>
+    <input class="form-input" id="input2" type="number" placeholder="Number input">
+</div>
+<div class="form-field">
+    <label class="form-label" for="input3">Textarea Label <small>additional context</small></label>
+    <textarea class="form-input" id="input3" placeholder="Placeholder text" rows="3"></textarea>
+</div>
+```
+*/
+.form-label {
+  color: #666666;
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem; }
+
+.form-input {
+  appearance: none;
+  background-color: white;
+  border-color: #dfdfdf;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  color: #454545;
+  display: block;
+  font-family: inherit;
+  font-size: 1rem;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  height: 3rem;
+  margin: 0;
+  padding: 0.75rem 1rem;
+  transition: border-color 100ms ease-out;
+  width: 100%;
+  /*doc
+---
+title: Disabled inputs
+name: 04forms_basics
+category: Forms
+parent: forms
+---
+
+```html_example
+<div class="form-field">
+    <label class="form-label" for="disabled_input1">Input Label</label>
+    <input class="form-input" id="disabled_input1" disabled type="text" value="Disabled text">
+</div>
+
+<div class="form-field">
+    <label class="form-label" for="disabled_input2">Input Label</label>
+    <input class="form-input" id="disabled_input2" readonly type="text" value="Readonly text">
+</div>
+```
+*/ }
+  .form-input:disabled {
+    background-color: white;
+    color: #a5a5a5;
+    cursor: not-allowed; }
+  .form-input:focus {
+    border-color: #989898;
+    outline: none; }
+  .form-input[type="search"] {
+    box-sizing: border-box; }
+  .form-input::-webkit-input-placeholder {
+    color: #a5a5a5; }
+  .form-input::-ms-clear {
+    height: 0;
+    width: 0; }
+  .form-input::-moz-placeholder {
+    color: #a5a5a5; }
+  .form-input:-ms-input-placeholder {
+    color: #a5a5a5; }
+
+/*doc
+---
+title: Selects
+name: 05forms_basics
+category: Forms
+parent: forms
+---
+
+```html_example
+<div class="form-field">
+    <label class="form-label" for="select1">Native Select label</label>
+    <select class="form-select" name="select1" id="select1">
+        <option>Please select a value</option>
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+    </select>
+</div>
+```
+*/
+
+/*doc
+---
+title: Form Panels and Layouts
+name: 13forms_layouts
+category: Forms
+parent: forms
+---
+
+We provide a couple of component styles to layout forms.
+
+The more `form-field` components you place in the `form-row`, the smaller the columns gets.
+Columns are equal length, and calculated automatically by Flexbox by default.
+
+It's the same mark-up but depending on your browser support needs, you can switch
+between a flexbox layout or a more traditional grid based layout by setting
+`$formRow-modernBrowsers` to `false`.
+
+The grid based layout of `form-feilds` will require the use of modifiers to calculate
+the correct widths. We support `form-field--half`, `form-field--third` and
+`form-field--quarter`
+
+```html_example
+<form action="#" class="form">
+    <fieldset class="form-fieldset">
+        <legend class="form-legend">Form legend</legend>
+        <div class="form-body">
+            <div class="form-row">
+                <div class="form-field">
+                    <label class="form-label" for="input12">Input Label</label>
+                    <input class="form-input" id="input12" type="text" placeholder="Placeholder text">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-field">
+                    <label class="form-label" for="input12">Input Label</label>
+                    <input class="form-input" id="input12" type="text" placeholder="Placeholder text">
+                </div>
+                <div class="form-field">
+                    <label class="form-label" for="input4">Prefixed Label</label>
+                    <div class="form-prefixPostfix">
+                        <span class="form-prefixPostfix-label form-prefixPostfix-label--prefix" id="prefixDesc1">KG</span>
+                        <input class="form-input form-prefixPostfix-input" id="input4" type="text" placeholder="Placeholder text" aria-describedby="prefixDesc1">
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-field">
+                    <label class="form-label" for="input12">Input Label</label>
+                    <input class="form-input" id="input12" type="text" placeholder="Placeholder text">
+                </div>
+                <div class="form-field">
+                    <label class="form-label" for="input4">Prefixed Label</label>
+                    <div class="form-prefixPostfix">
+                        <span class="form-prefixPostfix-label form-prefixPostfix-label--prefix" id="prefixDesc1">KG</span>
+                        <input class="form-input form-prefixPostfix-input" id="input4" type="text" placeholder="Placeholder text" aria-describedby="prefixDesc1">
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label class="form-label" for="input12">Input Label</label>
+                    <input class="form-input" id="input12" type="text" placeholder="Placeholder text">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-field">
+                    <label class="form-label" for="input12">Input Label</label>
+                    <input class="form-input" id="input12" type="text" placeholder="Placeholder text">
+                </div>
+                <div class="form-field">
+                    <label class="form-label" for="input4">Prefixed Label</label>
+                    <div class="form-prefixPostfix">
+                        <span class="form-prefixPostfix-label form-prefixPostfix-label--prefix" id="prefixDesc1">KG</span>
+                        <input class="form-input form-prefixPostfix-input" id="input4" type="text" placeholder="Placeholder text" aria-describedby="prefixDesc1">
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label class="form-label" for="input12">Input Label</label>
+                    <input class="form-input" id="input12" type="text" placeholder="Placeholder text">
+                </div>
+                <div class="form-field">
+                    <label class="form-label" for="input4">Prefixed Label</label>
+                    <div class="form-prefixPostfix">
+                        <span class="form-prefixPostfix-label form-prefixPostfix-label--prefix" id="prefixDesc1">KG</span>
+                        <input class="form-input form-prefixPostfix-input" id="input4" type="text" placeholder="Placeholder text" aria-describedby="prefixDesc1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+</form>
+```
+*/
+
+/*doc
+---
+title: Form Fields
+name: 02forms_basics
+category: Forms
+parent: forms
+---
+
+Each form input should be wrapped in a `form-field`
+
+```html_example
+<div class="form-field">
+</div>
+```
+*/
+.form-field {
+  display: block;
+  margin: 0 0 2rem;
+  max-width: none; }
+  .form-field:before, .form-field:after {
+    content: " ";
+    display: table; }
+  .form-field:after {
+    clear: both; }
+
+/*doc
+---
+title: Selects [multiple]
+name: 06forms_basics
+category: Forms
+parent: forms
+---
+
+Styling of the select element with the multiple attribute
+
+```html_example
+<div class="form-field">
+    <label class="form-label" for="multiselect1">Native Select Multiple label</label>
+    <select class="form-select" multiple name="multiselect1" id="multiselect1">
+        <option>Please select a value</option>
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option>
+        <option value="4">Option 4</option>
+    </select>
+</div>
+```
+*/
+
+/*doc
+---
+title: Radios and Checkbox
+name: 07forms_basics
+category: Forms
+parent: forms
+---
+
+```html_example
+<div class="form-field">
+    <label class="form-label">Field label</label>
+    <input class="form-checkbox" type="checkbox" id="check1">
+    <label class="form-label" for="check1">Checkbox 1 label</label>
+    <input class="form-checkbox" type="checkbox" id="check2">
+    <label class="form-label" for="check2">Checkbox 2 label</label>
+</div>
+```
+
+```html_example
+<div class="form-field">
+    <label class="form-label">Field label</label>
+    <input class="form-radio" type="radio" name="radio_example" id="radio1">
+    <label class="form-label" for="radio1">Radio 1 label</label>
+    <input class="form-radio" type="radio" name="radio_example" id="radio2">
+    <label class="form-label" for="radio2">Radio 2 label</label>
+</div>
+```
+*/
+
+/*doc
+---
+title: Inputs with Extras
+name: 08forms_inputextras
+category: Forms
+parent: forms
+---
+
+Sometimes inputs need inline actions. An inline button for a search box for example.
+
+```html_example
+<div class="form-field">
+    <label class="form-label" for="input9">Input with action</label>
+    <input class="form-input has-action" type="search" id="input9">
+    <button class="button button--icon button--inputAction">
+        <span class="u-hiddenVisually">Search</span>
+        <icon glyph="ic-search" class="icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></icon>
+    </button>
+</div>
+```
+*/
+
+/*doc
+---
+title: Inputs with Icons
+name: 09forms_inputicons
+category: Forms
+parent: forms
+---
+
+Sometimes inputs need to display an informative icon to convey a certain meaning, like secure.
+
+```html_example
+<div class="form-field">
+    <label class="form-label" for="input99">Input with icon</label>
+    <input class="form-input has-icon" type="search" id="input9">
+    <icon glyph="ic-lock" class="icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"></path></svg></icon>
+</div>
+```
+*/
+
+/*doc
+---
+title: Form PrefixPostfix
+name: 10forms_prefixpostfix
+category: Forms
+parent: forms
+---
+
+PrefixPostfix
+
+```html_example
+<div class="form-field">
+    <label class="form-label" for="input4">Prefixed Label <small>(Inc. tax)</small></label>
+    <div class="form-prefixPostfix">
+        <span class="form-prefixPostfix-label form-prefixPostfix-label--prefix" id="prefixDesc1">AUD $</span>
+        <input class="form-input form-prefixPostfix-input" id="input4" type="text" placeholder="Placeholder text" aria-describedby="prefixDesc1">
+    </div>
+</div>
+
+<div class="form-field">
+    <label class="form-label" for="input5">Postfixed Label</label>
+    <div class="form-prefixPostfix">
+        <input class="form-input form-prefixPostfix-input" id="input5" type="text" placeholder="Placeholder text" aria-describedby="prefixDesc2">
+        <span class="form-prefixPostfix-label form-prefixPostfix-label--postfix" id="prefixDesc2">KG</span>
+    </div>
+</div>
+```
+
+### PrefixPostfix with a button
+
+```html_example
+<div class="form-field">
+    <label class="form-label" for="input6">Prefixed Button</label>
+    <div class="form-prefixPostfix">
+        <input class="button form-prefixPostfix-button--prefix" type="submit" value="Save">
+        <input class="form-input" id="input6" type="text" placeholder="Placeholder text">
+    </div>
+</div>
+
+<div class="form-field">
+    <label class="form-label" for="input7">Postfixed Button</label>
+    <div class="form-prefixPostfix">
+        <input class="form-input" id="input7" type="text" placeholder="Placeholder text">
+        <input class="button form-prefixPostfix-button--postfix" type="submit" value="Save">
+    </div>
+</div>
+```
+*/
+.form-prefixPostfix {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+  .form-prefixPostfix .form-input {
+    flex: 1; }
+  .form-prefixPostfix .button {
+    height: 3rem; }
+
+.form-prefixPostfix-button--postfix {
+  margin: 0 0 0 0.75rem; }
+
+/*doc
+---
+title: Form Switch
+name: 11forms_switch
+category: Forms
+parent: forms
+---
+
+Switch
+
+```html_example
+<div class="form-field">
+    <switch>
+        <div class="switch">
+            <input class="switch-checkbox" type="checkbox" id="switch-1" aria-describedby="switch-ariaDescription-2">
+            <label class="switch-toggle" for="switch-1">
+            </label>
+            <span id="switch-ariaDescription-2" class="switch-ariaDescription">
+                Switching this setting off will...
+            </span>
+        </div>
+    </switch>
+</div>
+
+<div class="form-field">
+    <switch>
+        <div class="switch switch--checked">
+            <input class="switch-checkbox" type="checkbox" id="switch-1" aria-describedby="switch-ariaDescription-2">
+            <label class="switch-toggle" for="switch-1">
+            </label>
+            <span id="switch-ariaDescription-2" class="switch-ariaDescription">
+                Switching this setting off will...
+            </span>
+        </div>
+    </switch>
+</div>
+
+<div class="form-field">
+    <switch>
+        <div class="switch switch--checked">
+            <input class="switch-checkbox" type="checkbox" id="switch-3" aria-describedby="switch-ariaDescription-4">
+            <label class="switch-toggle" for="switch-3">
+                <span class="switch-label">On</span>
+            </label>
+            <span id="switch-ariaDescription-4" class="switch-ariaDescription">
+                Switching this setting off will...
+            </span>
+        </div>
+    </switch>
+</div>
+
+<div class="form-field">
+    <switch>
+        <div class="switch">
+            <input class="switch-checkbox" type="checkbox" id="switch-3" aria-describedby="switch-ariaDescription-4">
+            <label class="switch-toggle" for="switch-3">
+                <span class="switch-label">Off</span>
+            </label>
+            <span id="switch-ariaDescription-4" class="switch-ariaDescription">
+                Switching this setting off will...
+            </span>
+        </div>
+    </switch>
+</div>
+
+<div class="form-field">
+    <switch>
+        <div class="switch switch--important">
+            <span class="switch-description--off">Down for Maintenance</span>
+            <input class="switch-checkbox" type="checkbox" id="switch-7" aria-describedby="switch-ariaDescription-8">
+            <label class="switch-toggle" for="switch-7">
+            </label>
+            <span class="switch-description--on">Open</span>
+            <span id="switch-ariaDescription-8" class="switch-ariaDescription">
+                Switching this setting to off will enter your store into maintenance mode.
+            </span>
+        </div>
+    </switch>
+</div>
+
+<div class="form-field">
+    <switch>
+        <div class="switch switch--important switch--checked">
+            <span class="switch-description--off">Down for Maintenance</span>
+            <input class="switch-checkbox" type="checkbox" id="switch-7" aria-describedby="switch-ariaDescription-8">
+            <label class="switch-toggle" for="switch-7">
+            </label>
+            <span class="switch-description--on">Open</span>
+            <span id="switch-ariaDescription-8" class="switch-ariaDescription">
+                Switching this setting to off will enter your store into maintenance mode.
+            </span>
+        </div>
+    </switch>
+</div>
+```
+*/
+
+/*doc
+---
+title: Form Actions
+name: 14forms_actions
+category: Forms
+parent: forms
+---
+
+Forms require actions to submit or cancel (or what ever action a user should perform).
+Form actions come in 2 flavours; normal and fixed.
+
+```html_example
+<div class="form-actions">
+    <a href="#">Cancel</a>
+    <button class="button">Reset</button>
+    <button class="button button--primary">Submit</button>
+</div>
+```
+
+### Form Actions --fixed
+
+```html_example
+<div class="form-actions form-actions--fixed">
+    <a href="#">Cancel</a>
+    <button class="button">Reset</button>
+    <button class="button button--primary">Submit</button>
+</div>
+```
+*/
+
+/*doc
+---
+title: Form Errors
+name: 12forms_errors
+category: Forms
+parent: forms
+---
+
+Form inline errors
+
+```html_example
+<div class="form-field form-field--success">
+    <label class="form-label" for="valid_simple">Valid field</label>
+    <input class="form-input" id="valid_simple" type="text" value="Some Valid text">
+    <icon class="form-input-indicator icon ng-isolate-scope" glyph="ic-check-circle" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path></svg></icon>
+</div>
+
+<div class="form-field form-field--error">
+    <label class="form-label" for="invalid_simple">Invalid field</label>
+    <input class="form-input" id="invalid_simple" type="text" value="Some Invalid text">
+    <icon class="form-input-indicator icon ng-isolate-scope" glyph="ic-error" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"></path></svg></icon>
+    <ul class="form-field-errors">
+        <li class="form-field-error">
+            <label class="form-inlineMessage" for="invalid_simple">
+                This is not a valid email address
+            </label>
+        </li>
+    </ul>
+</div>
+
+<div class="form-field form-field--warning">
+    <label class="form-label" for="warning_simple">Warning field</label>
+    <input class="form-input" id="warning_simple" type="text" value="Text that generated a Warning">
+    <icon class="form-input-indicator icon ng-isolate-scope" glyph="ic-error" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"></path></svg></icon>
+    <ul class="form-field-errors">
+        <li class="form-field-error">
+            <label class="form-inlineMessage" for="warning_simple">
+                Did you mean…
+            </label>
+        </li>
+    </ul>
+</div>
+
+<div class="form-field form-field--error">
+    <label class="form-label" for="invalid_select">Select label</label>
+    <select class="form-select" name="invalid_select" id="invalid_select">
+        <option value="Please select a value">Please select a value</option>
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+    </select>
+    <ul class="form-field-errors">
+        <li class="form-field-error">
+            <label class="form-inlineMessage" for="invalid_select">
+                You must select a value
+            </label>
+        </li>
+    </ul>
+</div>
+
+<div class="form-field form-field--error">
+    <label class="form-label">Checkbox label</label>
+    <input class="form-checkbox" type="checkbox" id="invalid_check1">
+    <label class="form-label" for="invalid_check1">Checkbox 1 label</label>
+    <input class="form-checkbox" type="checkbox" id="invalid_check2">
+    <label class="form-label" for="invalid_check2">Checkbox 2 label</label>
+    <ul class="form-field-errors">
+        <li class="form-field-error">
+            <label class="form-inlineMessage">
+                Please select one or more
+            </label>
+        </li>
+    </ul>
+</div>
+
+<div class="form-field form-field--error">
+    <label class="form-label">Radio label</label>
+    <input class="form-radio" type="radio" name="invalid_radio_example" id="invalid_radio1">
+    <label class="form-label" for="invalid_radio1">Radio 1 label</label>
+    <input class="form-radio" type="radio" name="invalid_radio_example" id="invalid_radio2">
+    <label class="form-label" for="invalid_radio2">Radio 2 label</label>
+    <ul class="form-field-errors">
+        <li class="form-field-error">
+            <label class="form-inlineMessage">
+                Please select an option
+            </label>
+        </li>
+    </ul>
+</div>
+
+<div class="form-field form-field--error">
+    <label class="form-label" for="invalid_prefix">Prefixed Label <small>(Inc. tax)</small></label>
+    <div class="form-prefixPostfix">
+        <span class="form-prefixPostfix-label form-prefixPostfix-label--prefix" id="prefixDesc1">AUD $</span>
+        <input class="form-input form-prefixPostfix-input" id="invalid_prefix" type="text" placeholder="Placeholder text" aria-describedby="prefixDesc1">
+        <icon class="form-input-indicator icon ng-isolate-scope" glyph="ic-error" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"></path></svg></icon>
+    </div>
+    <ul class="form-field-errors">
+        <li class="form-field-error">
+            <label class="form-inlineMessage" for="invalid_prefix">
+                Please input a dollar amount
+            </label>
+        </li>
+    </ul>
+</div>
+
+<div class="form-field form-field--error">
+    <label class="form-label" for="invalid_postfix">Postfixed Label</label>
+    <div class="form-prefixPostfix">
+        <input class="form-input form-prefixPostfix-input" id="invalid_postfix" type="text" placeholder="Placeholder text" aria-describedby="prefixDesc2">
+        <span class="form-prefixPostfix-label form-prefixPostfix-label--postfix" id="prefixDesc2">KG</span>
+    </div>
+    <ul class="form-field-errors">
+        <li class="form-field-error">
+            <label class="form-inlineMessage" for="invalid_postfix">
+                Please enter the weight in kilograms
+            </label>
+        </li>
+    </ul>
+</div>
+
+<div class="form-field form-field--error">
+    <label class="form-label" for="invalid_postfix_button">Postfixed Button</label>
+    <div class="form-prefixPostfix">
+        <input class="form-input" id="invalid_postfix_button" type="text" placeholder="Placeholder text">
+        <input class="button form-prefixPostfix-button--postfix" type="submit" value="Save">
+    </div>
+    <ul class="form-field-errors">
+        <li class="form-field-error">
+            <label class="form-inlineMessage" for="invalid_postfix_button">
+                This is a really long error message to give alot
+                more detail to the user about what is wrong with this field.
+            </label>
+        </li>
+        <li class="form-field-error">
+            <label class="form-inlineMessage" for="invalid_postfix_button">
+                Something else was wrong
+            </label>
+        </li>
+        <li class="form-field-error">
+            <label class="form-inlineMessage" for="invalid_postfix_button">
+                You really messed up here
+            </label>
+        </li>
+    </ul>
+</div>
+```
+*/
+
+/*doc
+---
+title: Panels
+name: panel
+category: Components
+---
+
+Panels are a simple container which is relatively positioned within the document which helps you section
+your content. Panels may also have a header, which contains a related title to describe the contents.
+
+```sass_file_example
+src/settings/foundation/panels/_settings.scss
+```
+```html_example
+<div class="panel">
+    <div class="panel-header">
+        <h2 class="panel-title">Panel Title</h2>
+    </div>
+    <div class="panel-body">
+        <h2>Some Panel Content</h2>
+        <p>Should be able to handle any type of content.</p>
+    </div>
+</div>
+```
+*/
+
+/*doc
+---
+title: Navigation
+name: nav
+category: Components
+---
+
+The navigation pattern holds a list of links wrapped in a navigation element. The links can help you navigate
+the document, or the information architecture. Each link should modify the URL in some way.
+
+```sass_file_example
+src/settings/bigcommerce/nav/_settings.scss
+```
+We generate our own navigation abstractions through a `nav()` mixin. The mixin works as follows:
+
+```scss_example
+nav($style: "navBar", $wrapper: "nav")
+```
+Where:
+
+ - `$style` - The type of navigation (a bar or list)
+ - `$wrapper` - The wrapper of the navigation (usually nav, ul or ol)
+
+There is also a `nav-action()` mixin, which when used will set the styles for any actionable items in your navigation list.
+
+```scss_example
+nav-action($color, $fontFamily, $fontSize, $padding)
+```
+
+*/
+/*doc
+---
+title: Navigation Bar
+name: navBar
+parent: nav
+category: Components
+---
+
+The Navigation Bar is a horizontal navigation component, useful for page navigation or any other primary content navigation.
+
+```html_example
+<nav class="navBar navBar--internal">
+    <ul class="navBar-section">
+        <li class="navBar-item">
+            <a class="navBar-action" href="#">Item 1</a>
+        </li>
+        <li class="navBar-item is-active">
+            <a class="navBar-action" href="#">Item 2</a>
+        </li>
+        <li class="navBar-item">
+            <a class="navBar-action" href="#">Item 3</a>
+        </li>
+        <li class="navBar-item">
+            <a class="navBar-action" href="#">Item 4</a>
+        </li>
+    </ul>
+    <ul class="navBar-section navBar-section--alt">
+        <li class="navBar-item">
+            <a class="navBar-action" href="#">Item 5</a>
+        </li>
+        <li class="navBar-item">
+            <a class="navBar-action" href="#">Item 6</a>
+        </li>
+        <li class="navBar-item">
+            <a class="navBar-action" href="#">Item 7</a>
+        </li>
+    </ul>
+</nav>
+```
+
+You can create a navigation bar abstraction with the following mixin:
+
+```scss_example
+.pageNavigation {
+    @include nav("navBar", "nav");
+    @include nav-action($navBar-action-color, $navBar-action-fontFamily, $navBar-action-fontSize, $navBar-action-padding);
+}
+```
+
+*/
+
+/*doc
+---
+title: Navigation List
+name: navList
+parent: nav
+category: Components
+---
+
+The Navigation List is a vertical navigation component, useful for secondary navigation like a list of child pages.
+
+```html_example
+<nav class="navList navList--aside">
+    <ul class="navList-section">
+        <li class="navList-item">
+            <a class="navList-action" href="#">Item 1</a>
+        </li>
+        <li class="navList-item is-active">
+            <a class="navList-action" href="#">Item 2</a>
+            <ul class="navList-subSection">
+                <li class="navList-item">
+                    <a class="navList-action" href="#">Sub-item 1</a>
+                </li>
+                <li class="navList-item is-active">
+                    <a class="navList-action" href="#">Sub-item 2</a>
+                </li>
+                <li class="navList-item">
+                    <a class="navList-action" href="#">Sub-item 3</a>
+                </li>
+                <li class="navList-item">
+                    <a class="navList-action" href="#">Sub-item 4</a>
+                </li>
+            </ul>
+        </li>
+        <li class="navList-item">
+            <a class="navList-action" href="#">Sub-item 3</a>
+        </li>
+        <li class="navList-item">
+            <a class="navList-action" href="#">Sub-item 4</a>
+        </li>
+    </ul>
+</nav>
+```
+
+You can create a navigation list abstraction with the following mixin:
+
+```scss_example
+.subPagesList {
+    @include nav("navList", "ul");
+    @include nav-action($navBar-action-color, $navBar-action-fontFamily, $navBar-action-fontSize, $navBar-action-padding);
+}
+```
+
+*/
+
+/*doc
+---
+title: Alerts
+name: alerts
+category: Components
+---
+
+Alerts can be used to inform users about the actions they perform, whether it's a successful message, a warning, error, or just information.
+They can be displayed at a page level or inside a specific container. They will take the full width of their containers.
+
+```sass_file_example
+src/settings/foundation/alerts/_settings.scss
+```
+
+The alert box consists of three `alertBox-column`s: The `alertBox-icon` which contains the icon for the type of alert,
+the `alertBox-message` which can contain the heading and text for the alert message, and `alertBox-close` which holds the close button.
+You can set the vertical alignment of the columns in the setting variables.
+
+```html_example
+<div class="alertBox">
+    <div class="alertBox-column alertBox-icon">
+        <icon class="icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+            </svg>
+        </icon>
+    </div>
+    <div class="alertBox-column alertBox-message">
+        <span>Generic alert</span>
+    </div>
+    <a class="alertBox-column alertBox-close" tabindex="0" href="#">
+        <icon glyph="ic-close" class="icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+            </svg>
+        </icon>
+    </a>
+</div>
+```
+*/
+
+/*doc
+---
+title: Accordion
+name: accordion
+category: Components
+---
+```html_example
+<section class="accordion">
+    <article heading="Dynamic Group Header - 1" class="is-open">
+        <h2 class="accordion-navigation is-open">
+            <a href="javascript:void(0)" class="accordion-title">
+                Dynamic Group Header - 1
+                <icon class="accordion-indicator icon" glyph="ic-remove" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13H5v-2h14v2z"></path></svg></icon>
+            </a>
+        </h2>
+        <div class="accordion-content is-open">
+            Dynamic Group Body - 1
+        </div>
+    </article>
+    <article heading="Dynamic Group Header - 2">
+        <h2 class="accordion-navigation">
+            <a href="javascript:void(0)" class="accordion-title">
+                Dynamic Group Header - 2
+                <icon class="accordion-indicator icon" glyph="ic-remove" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13H5v-2h14v2z"></path></svg></icon>
+            </a>
+        </h2>
+    </article>
+<article heading="Dynamic Group Header - 3">
+        <h2 class="accordion-navigation accordion-navigation--error">
+            <a href="javascript:void(0)" class="accordion-title">
+                Dynamic Group Header - 3
+                <icon class="accordion-indicator icon" glyph="ic-remove" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 13H5v-2h14v2z"></path></svg></icon>
+            </a>
+        </h2>
+    </article>
+</section>
+```
+
+```sass_file_example
+src/settings/foundation/accordion/_settings.scss
+```
+*/
+
+.modal {
+  border-radius: 0;
+  display: none;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  width: 100%;
+  z-index: 1005;
+  left: 0;
+  background-color: white;
+  padding: 2.25rem 2.25rem;
+  border: solid 0 #e8e8e8;
+  box-shadow: none;
+  max-height: 80%;
+  overflow: auto;
+  position: fixed; }
+  @media only screen and (max-width: 551px) {
+    .modal {
+      min-height: 100vh; } }
+  .modal > :first-child {
+    margin-top: 0; }
+  .modal > :last-child {
+    margin-bottom: 0; }
+  @media only screen and (min-width: 551px) {
+    .modal {
+      left: 0;
+      margin: 0 auto;
+      max-width: 80%;
+      right: 0;
+      width: 900px; } }
+  @media only screen and (min-width: 551px) {
+    .modal {
+      top: 50% !important; } }
+  @media (min-width: 551px) {
+    .modal {
+      transform: translateY(-50%); } }
+
+.modal-close {
+  color: #666666;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 1;
+  position: absolute;
+  top: 1.05rem;
+  right: 0.75rem;
+  transform: translateY(none); }
+  .modal-close .icon {
+    height: 1.42857rem;
+    width: 1.42857rem; }
+
+@media print {
+  .modal {
+    background: #FFFFFF !important;
+    display: none; } }
+
+.loadingOverlay {
+  background: rgba(45, 45, 45, 0.9);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 250ms ease-out;
+  width: 100%; }
+  .loadingOverlay::before {
+    height: 2.85714rem;
+    width: 2.85714rem;
+    border-radius: 2.85714rem;
+    border: solid 2px;
+    border-color: white white #989898 #989898;
+    content: "";
+    display: block;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+    transform-style: preserve-3d;
+    animation: spin 500ms infinite cubic-bezier(0.69, 0.31, 0.56, 0.83); }
+
+@keyframes spin {
+  0% {
+    transform: translateY(-50%) rotate(0deg); }
+  100% {
+    transform: translateY(-50%) rotate(360deg); } }
+
+/*doc
+---
+title: ActionBar
+name: action_bar
+category: Patterns
+---
+```html_example
+<div class="actionBar">
+    <div class="actionBar-section">
+        <fieldset class="form-fieldset">
+            <div class="actionBar-item form-field">
+                <input class="form-input has-action" type="search" placeholder="Search">
+                <button class="button button--icon button--inputAction">
+                    <span class="is-srOnly">Search</span>
+                    <icon glyph="ic-search"></icon>
+                </button>
+            </div>
+            <a href="#" class="actionBar-item">Advanced</a>
+        </fieldset>
+    </div>
+    <div class="actionBar-section actionBar-section--alt">
+        <fieldset class="form-fieldset">
+            <div class="actionBar-item form-field">
+                <div class="buttonGroup">
+                    <button class="button">
+                        All
+                    </button>
+                    <button class="button">
+                        Free
+                    </button>
+                    <button class="button">
+                        Paid
+                    </button>
+                </div>
+            </div>
+            <div class="actionBar-item form-field">
+                <label class="form-label" for="select1">Sort by</label>
+                <select class="form-select" name="select1" id="select1">
+                    <option value="1">Popular</option>
+                    <option value="2">Newest</option>
+                </select>
+            </div>
+        </fieldset>
+    </div>
+</div>
+```
+
+```sass_file_example
+src/settings/bigcommerce/actionBar/_settings.scss
+```
+*/
+
+/*doc
+---
+title: Cards
+name: cards
+category: Components
+---
+
+Cards are a typical component consisting of a figure and a short snippet of descriptive text.
+This could include a heading and a caption or definition, and perhaps a call to action
+or other actionable functions.
+
+```sass_file_example
+src/settings/bigcommerce/cards/_settings.scss
+```
+```html_example
+<article class="card">
+    <figure class="card-figure">
+        <img class="card-image" src="http://lorempixel.com/960/360/sports/" alt="Example card image">
+        <figcaption class="card-figcaption">
+            <a class="card-figcaption-action" href="#">
+                <div class="card-figcaption-body">
+                    <span class="button card-figcaption-button">Learn more</span>
+                </div>
+            </a>
+        </figcaption>
+    </figure>
+    <div class="card-body">
+        <h2 class="card-title">20% Off First Design Project</h2>
+        <h3 class="card-subTitle">Custom Designs</h3>
+        <p class="card-text">
+            Be seen by customers at the very moment that
+            they are searching on Google for the things you offer.
+        </p>
+    </div>
+</article>
+```
+*/
+.card {
+  background-color: transparent;
+  margin-bottom: 3rem;
+  padding: 0 0; }
+
+.card-figure {
+  background-color: white;
+  margin-bottom: 0;
+  padding: 0 0;
+  position: relative; }
+
+.card-image {
+  border: 1px solid #454545;
+  width: 100%; }
+
+.card-figcaption {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0; }
+  .card-figcaption:hover {
+    opacity: 1; }
+
+.card-figcaption-body {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  transform-style: preserve-3d; }
+  .card-figcaption-body > :first-child {
+    margin-top: 0; }
+  .card-figcaption-body > :last-child {
+    margin-bottom: 0; }
+  .card-figcaption-body .card-text {
+    color: #505050; }
+
+.card-body {
+  padding: 0.78571rem 0 0; }
+  .card-body > :first-child {
+    margin-top: 0; }
+  .card-body > :last-child {
+    margin-bottom: 0; }
+  .card-body .card-text {
+    color: #505050; }
+
+/* Slider */
+
+/* Slider */
+
+/* Icons */
+/* Arrows */
+
+/* Dots */
+
+html,
+body {
+  height: auto; }
+
+body {
+  padding-top: 55px; }
+  @media (min-width: 750px) {
+    body {
+      padding-top: 0; } }
+
+figure {
+  margin-bottom: 2rem;
+  margin-top: 2rem; }
+  figure > figcaption {
+    margin-bottom: -0.5rem; }
+
+figcaption {
+  color: #a5a5a5;
+  margin-top: 0.78571rem; }
+
+body {
+  font-size: 1rem;
+  font-weight: 400; }
+
+
+h2,
+h4,
+h5 {
+  font-weight: 400;
+  margin-top: 2.28571rem; }
+
+h5 {
+  text-transform: uppercase; }
+
+a {
+  transition: color 0.15s ease; }
+
+.dropdown {
+  left: -9999px;
+  outline: none;
+  position: absolute; }
+
+.modal {
+  left: 50%;
+  margin: 0 auto;
+  max-height: 90%;
+  max-width: 550px;
+  width: 100%;
+  min-height: 240px;
+  outline: none;
+  overflow: hidden;
+  padding: 0;
+  right: 0;
+  top: 50% !important;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%); }
+
+.modal-close {
+  height: 2.28571rem;
+  width: 2.28571rem;
+  color: #4f4f4f;
+  font-size: 26px;
+  line-height: 2.28571rem;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  z-index: 50; }
+  @media (min-width: 750px) {
+    .modal-close {
+      font-size: 32px; } }
+  .modal-close:hover {
+    color: #a5a5a5; }
+
+.button {
+  line-height: 1rem;
+  transition: all 0.15s ease; }
+  .button + .button {
+    margin-left: 0; }
+    @media (min-width: 750px) {
+      .button + .button {
+        margin-left: 0.78571rem; } }
+
+.form-prefixPostfix.wrap {
+  flex-wrap: wrap; }
+
+.form-prefixPostfix .form-input,
+.form-prefixPostfix .button {
+  display: block;
+  width: 100%; }
+
+@media (min-width: 1261px) {
+  .form-prefixPostfix .form-input {
+    width: auto; } }
+
+@media (min-width: 1261px) {
+  .form-prefixPostfix .button {
+    width: auto; } }
+
+.form-prefixPostfix-button--postfix {
+  margin: 0.78571rem 0 0;
+  order: 1; }
+  @media (min-width: 1261px) {
+    .form-prefixPostfix-button--postfix {
+      margin: 0 0 0 0.78571rem;
+      order: 0; } }
+
+.card-figure {
+  margin-top: 0; }
+  .card-figure:hover .card-figcaption {
+    opacity: 1; }
+
+.card-figcaption {
+  display: none;
+  margin: 0;
+  pointer-events: none; }
+  @media (min-width: 750px) {
+    .card-figcaption {
+      display: block; } }
+
+.card-figcaption-body {
+  display: inline-block;
+  pointer-events: all;
+  transform: translate3d(0, -50%, 0); }
+
+.card-image {
+  border: 0;
+  display: flex;
+  margin: auto;
+  width: auto; }
+
+.card-title {
+  font-size: 15px;
+  margin: 0 0 0.28571rem;
+  min-height: 44px; }
+  .card-title > a {
+    color: #2d2d2d;
+    text-decoration: none; }
+    .card-title > a:hover {
+      color: #a5a5a5; }
+
+.card-text {
+  margin-bottom: 0.21429rem; }
+
+.card-body {
+  text-align: center; }
+
+.loadingOverlay {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: none;
+  z-index: 20; }
+
+.icons-svg-sprite {
+  display: none; }
+
+.icon,
+.icon svg {
+  transition: all 0.15s ease; }
+
+.navUser {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  top: 26px;
+  width: 100%;
+  z-index: 5; }
+  .navUser:before, .navUser:after {
+    content: " ";
+    display: table; }
+  .navUser:after {
+    clear: both; }
+  .navUser ul {
+    list-style: none;
+    margin-left: 0;
+    margin: 0;
+    padding: 0; }
+    .navUser ul ul {
+      list-style: none;
+      margin-bottom: 0; }
+    .navUser ul li {
+      margin: 0;
+      padding: 0; }
+  .navUser-section {
+    float: left; }
+    .navUser-section:before, .navUser-section:after {
+      content: " ";
+      display: table; }
+    .navUser-section:after {
+      clear: both; }
+  .navUser-section--alt {
+    float: right;
+    margin-left: 1.5rem; }
+  .navUser-section + .navUser-section {
+    margin-left: 1.5rem; }
+  @media (min-width: 551px) {
+    .navUser-item {
+      float: left; } }
+  .navUser-item, .navUser-action {
+    display: block; }
+  @media (min-width: 750px) {
+    .navUser {
+      position: relative;
+      right: auto;
+      top: auto;
+      transform: none;
+      z-index: 50; } }
+  .navUser .dropdown-menu {
+    background-color: white;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.13);
+    position: absolute; }
+  .navUser .dailyDeals {
+    display: none; }
+    @media (min-width: 750px) {
+      .navUser .dailyDeals {
+        float: left;
+        display: block; }
+        .navUser .dailyDeals a {
+          background: #e31801;
+          padding: 8px;
+          font-size: .9em;
+          color: #fff;
+          display: block;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-weight: bold; } }
+
+.navUser-action {
+  color: #fff;
+  font-weight: 700;
+  padding: 8px 18px;
+  text-decoration: none;
+  text-transform: uppercase; }
+  .navUser-action:hover {
+    color: #a5a5a5; }
+    .navUser-action:hover svg {
+      fill: #a5a5a5;
+      stroke: #a5a5a5; }
+  .navUser-action .icon {
+    height: 0.57143rem;
+    width: 0.57143rem;
+    margin: -1px 0 0 0.21429rem; }
+  .navUser-action svg {
+    fill: #4f4f4f;
+    stroke: #4f4f4f;
+    transition: all 0.15s ease; }
+
+.navUser-item {
+  display: none;
+  font-size: .9em; }
+  @media (min-width: 750px) {
+    .navUser-item {
+      display: block; } }
+  .navUser-item .fa-truck,
+  .navUser-item .fa-question-circle,
+  .navUser-item .fa-user {
+    padding-right: 10px; }
+
+.navUser-item--cart {
+  display: block;
+  background: #fff; }
+  .navUser-item--cart .navUser-action {
+    color: #4f4f4f;
+    padding: 6px 10px;
+    text-transform: none; }
+    .navUser-item--cart .navUser-action:hover {
+      color: #a5a5a5; }
+    .navUser-item--cart .navUser-action .grandTotal {
+      padding-right: 5px;
+      display: none; }
+      @media (min-width: 750px) {
+        .navUser-item--cart .navUser-action .grandTotal {
+          display: inline-block; } }
+  .navUser-item--cart .dropdown-menu {
+    max-width: 22.85714rem;
+    overflow: hidden; }
+  .navUser-item--cart .fa {
+    font-size: 1.8em;
+    vertical-align: middle;
+    color: #990f04;
+    padding-right: 6px; }
+
+.navUser-item-cartLabel {
+  display: none; }
+  @media (min-width: 551px) {
+    .navUser-item-cartLabel {
+      display: inline; } }
+
+.navUser-item--compare {
+  display: none; }
+  .navUser-item--compare.show {
+    display: block; }
+
+.navUser-item--account .navUser-action {
+  display: inline-block; }
+
+.dropdown--quickSearch {
+  background-color: #e8e8e8;
+  padding: 1.5rem 0; }
+  @media (min-width: 551px) {
+    .dropdown--quickSearch {
+      padding: 3rem; } }
+  .dropdown--quickSearch .form {
+    margin: auto;
+    max-width: 30rem; }
+  .dropdown--quickSearch .form,
+  .dropdown--quickSearch .form-field {
+    margin-bottom: 0; }
+  .dropdown--quickSearch .form-input {
+    font-size: 20px;
+    height: unset; }
+  .dropdown--quickSearch .productGrid {
+    padding: 1.5rem 0 0; }
+    @media (min-width: 551px) {
+      .dropdown--quickSearch .productGrid {
+        padding: 3rem 0 0; } }
+
+.countPill {
+  background-color: #d61212;
+  border-radius: 50%;
+  color: white;
+  display: none;
+  font-size: 12px;
+  font-weight: 700;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 0.21429rem;
+  text-align: center;
+  width: 20px;
+  position: absolute;
+  top: 1px;
+  right: 1px; }
+
+.countPill--positive {
+  display: inline-block; }
+
+.countPill--alt {
+  background-color: #dfdfdf;
+  color: #454545; }
+
+.navPages .navPage-subMenu-list, .navPage-childList {
+  border-left: 1px solid #dfdfdf;
+  margin: 0.35714rem 0.78571rem;
+  padding-left: 0.78571rem; }
+
+.navPages-container {
+  bottom: 0;
+  display: none;
+  height: 100%;
+  left: 0;
+  -webkit-overflow-scrolling: touch;
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  background: #fff;
+  text-align: left; }
+  @media (min-width: 750px) {
+    .navPages-container {
+      background: #3d4042;
+      display: block;
+      height: auto;
+      padding: 0;
+      position: relative;
+      text-align: center; } }
+
+.navPages {
+  background-color: #f2f2f2;
+  height: 100%;
+  overflow-y: auto;
+  padding: 1.5rem; }
+  .navPages ul .navPages-item:nth-child(2) .cat-img {
+    background-image: url("../images/KSBINWA.400.37.GR__48399.1690957372.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    min-height: 320px;
+    margin: 0px auto; }
+    @media only screen and (max-width: 550px) and (min-width: 200px) {
+      .navPages ul .navPages-item:nth-child(2) .cat-img {
+        width: 100%;
+        min-height: 350px; } }
+  .navPages ul .navPages-item:nth-child(3) .cat-img {
+    background-image: url("../images/757411-85__57184.1690867687.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    min-height: 320px;
+    margin: 0px auto; }
+    @media only screen and (max-width: 550px) and (min-width: 200px) {
+      .navPages ul .navPages-item:nth-child(3) .cat-img {
+        width: 100%;
+        min-height: 350px; } }
+  @media (min-width: 750px) {
+    .navPages {
+      margin: 0 auto;
+      max-width: 87.14286rem;
+      width: 100%;
+      background: #f2f2f2;
+      font-size: 0;
+      overflow-y: visible;
+      padding: 0;
+      text-align: center;
+      color: #000; }
+      .navPages:before, .navPages:after {
+        content: " ";
+        display: table; }
+      .navPages:after {
+        clear: both; }
+      .navPages:before, .navPages:after {
+        content: " ";
+        display: table; }
+      .navPages:after {
+        clear: both; }
+      .navPages ul {
+        list-style: none;
+        margin-left: 0;
+        margin: 0;
+        padding: 0; }
+        .navPages ul ul {
+          list-style: none;
+          margin-bottom: 0; }
+        .navPages ul li {
+          margin: 0;
+          padding: 0; } }
+  @media (min-width: 750px) and (min-width: 551px) {
+    .navPages-item {
+      float: left; } }
+  @media (min-width: 750px) {
+      .navPages-item, .navPages-action {
+        display: block; } }
+  .navPages .cat-img {
+    display: none; }
+  .navPages ul {
+    list-style: none;
+    width: 100%; }
+    .navPages ul .navPages-item {
+      position: relative;
+      width: 100%;
+      float: none; }
+      .navPages ul .navPages-item:nth-child(4) .navPage-subMenu-list .navPage-subMenu-item {
+        width: 100%; }
+        .navPages ul .navPages-item:nth-child(4) .navPage-subMenu-list .navPage-subMenu-item .navPage-subMenu-action.navPages-action {
+          text-decoration: none; }
+      .navPages ul .navPages-item:nth-child(6) .navPage-subMenu-list .navPage-subMenu-item {
+        width: 100%; }
+        .navPages ul .navPages-item:nth-child(6) .navPage-subMenu-list .navPage-subMenu-item .navPage-subMenu-action.navPages-action {
+          text-decoration: none; }
+      .navPages ul .navPages-item:nth-child(3) .navPage-subMenu-list .navPage-subMenu-item .navPage-subMenu-action.navPages-action {
+        text-decoration: none; }
+      @media (min-width: 750px) {
+        .navPages ul .navPages-item {
+          width: 10%;
+          border-left: 2px solid #616365;
+          display: table-cell; }
+          .navPages ul .navPages-item:nth-child(2) {
+            border-left: 0;
+            width: 10%; }
+            .navPages ul .navPages-item:nth-child(2) .cat-img {
+              display: block;
+              background-image: url("../images/KSBINWA.400.37.GR__48399.1690957372.jpg");
+              height: 100%;
+              width: 70%;
+              position: absolute;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              border: 10px solid #990f04;
+              right: -70%;
+              top: 0; } }
+      @media only screen and (min-width: 750px) and (max-width: 1050px) and (min-width: 750px) {
+        .navPages ul .navPages-item:nth-child(2) .cat-img {
+          right: 0;
+          bottom: -100%;
+          top: unset; } }
+      @media (min-width: 750px) {
+          .navPages ul .navPages-item:nth-child(3) {
+            width: 10%; }
+            .navPages ul .navPages-item:nth-child(3) .cat-img {
+              display: block;
+              background-image: url("../images/757411-85__57184.1690867687.jpg");
+              height: 100%;
+              width: 70%;
+              position: absolute;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              border: 10px solid #990f04;
+              right: -70%;
+              top: 0; } }
+      @media only screen and (min-width: 750px) and (max-width: 1100px) and (min-width: 750px) {
+        .navPages ul .navPages-item:nth-child(3) .cat-img {
+          right: 0;
+          bottom: -100%;
+          top: unset; } }
+      @media (min-width: 750px) {
+          .navPages ul .navPages-item:nth-child(1) {
+            width: 5%; }
+          .navPages ul .navPages-item:nth-child(3) {
+            width: 10%; }
+          .navPages ul .navPages-item:nth-child(4) {
+            width: 10%; }
+          .navPages ul .navPages-item:nth-child(8) {
+            width: 10%; }
+          .navPages ul .navPages-item:nth-child(9) {
+            width: 8%; }
+          .navPages ul .navPages-item:nth-child(5) {
+            width: 6%; }
+          .navPages ul .navPages-item:nth-child(6) {
+            width: 8%; }
+          .navPages ul .navPages-item:nth-child(7) {
+            width: 5%; }
+           .navPages ul .navPages-item:hover {
+            background: #313131; } }
+      @media only screen and (max-width: 990px) and (min-width: 750px) {
+        .navPages ul .navPages-item {
+          width: 33.333333%; }
+          .navPages ul .navPages-item:nth-child(3), .navPages ul .navPages-item:nth-child(4), .navPages ul .navPages-item:nth-child(5), .navPages ul .navPages-item:nth-child(7), .navPages ul .navPages-item:nth-child(8), .navPages ul .navPages-item:nth-child(9) {
+            width: 33.333333%; } }
+      .navPages ul .navPages-item:first-child a {
+        border-left: 0; }
+      .navPages ul .navPages-item:last-child a {
+        border-right: 0; }
+    .navPages ul li {
+      position: relative;
+      width: 100%; }
+      @media (min-width: 750px) {
+        .navPages ul li {
+          width: 16.66666666%;
+          min-height: 58px;
+          line-height: 58px; } }
+      @media only screen and (max-width: 990px) and (min-width: 750px) {
+        .navPages ul li {
+          width: 33.333333%; } }
+      .navPages ul li:first-child a {
+        border-left: 0; }
+      .navPages ul li:last-child a {
+        border-right: 0; }
+  .navPages .navPage-subMenu-list {
+    border-left: 0;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0; }
+    @media (min-width: 750px) {
+      .navPages .navPage-subMenu-list {
+        margin: 0 auto;
+        max-width: 87.14286rem;
+        width: 100%;
+        border-left: 0;
+        margin: auto;
+        padding-left: 0; }
+        .navPages .navPage-subMenu-list:before, .navPages .navPage-subMenu-list:after {
+          content: " ";
+          display: table; }
+        .navPages .navPage-subMenu-list:after {
+          clear: both; } }
+  .navPages .navPage-subMenu-item.viewAll {
+    width: 100%; }
+    .navPages .navPage-subMenu-item.viewAll a {
+      background: #f1010e;
+      color: #FFF;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: bold; }
+  @media (min-width: 750px) {
+    .navPages .navPage-subMenu-item {
+      float: left;
+      width: 33%;
+      min-height: 0;
+      line-height: normal; }
+      .navPages .navPage-subMenu-item .navPages-action {
+        text-transform: none;
+        width: 100%;
+        border: 0;
+        padding: 8px 0;
+        margin: 0; } }
+  .navPages .navPage-subMenu-item .navPage-childList {
+    padding-left: 20px; }
+    @media (min-width: 750px) {
+      .navPages .navPage-subMenu-item .navPage-childList {
+        padding-left: unset; } }
+    .navPages .navPage-subMenu-item .navPage-childList .navPage-childList-item a.navPage-childList-action.navPages-action span {
+      color: #4f4f4f;
+      font-weight: 600; }
+      @media (min-width: 750px) {
+        .navPages .navPage-subMenu-item .navPage-childList .navPage-childList-item a.navPage-childList-action.navPages-action span {
+          color: #fff; } }
+
+@media (min-width: 750px) {
+  .navPages .navPages-item:nth-child(4) .navPage-subMenu-item, .navPages .navPages-item:nth-child(6) .navPage-subMenu-item, .navPages .navPages-item:nth-child(8) .navPage-subMenu-item {
+    width: 100%;
+    text-align: left; } }
+
+@media (max-width: 767px) {
+  .navPages ul.navPages-list.navPages-list--user {
+    display: none; } }
+
+.navPage-subMenu ul.navPage-subMenu-list li.navPage-subMenu-item a.navPage-subMenu-action.navPages-action {
+  color: #4f4f4f;
+  text-decoration: underline;
+  font-size: 16px; }
+  @media (min-width: 750px) {
+    .navPage-subMenu ul.navPage-subMenu-list li.navPage-subMenu-item a.navPage-subMenu-action.navPages-action {
+      color: #fff; } }
+
+.navPages-list {
+  margin: 0; }
+  @media (min-width: 750px) {
+    .navPages-list {
+      display: inline-block;
+      float: none; } }
+  .navPages-list + .navPages-list {
+    border-top: 1px solid #dfdfdf;
+    margin-top: 0.78571rem;
+    padding-top: 0.78571rem; }
+
+.navPages-action {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0.78571rem 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  z-index: 999;
+  position: relative; }
+  .navPages-action svg {
+    fill: #4f4f4f;
+    stroke: #4f4f4f;
+    transition: all 0.15s ease; }
+    @media (min-width: 750px) {
+      .navPages-action svg {
+        fill: #fff;
+        stroke: #fff; } }
+  .navPages-action.browse {
+    text-align: center;
+    background: #fff;
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: none; }
+  @media (min-width: 750px) {
+    .navPages-action {
+      color: #fff;
+      width: 100%;
+      display: inline-block;
+      padding: 9px 0;
+      vertical-align: middle;
+      line-height: 20px; }
+      .navPages-action:hover {
+        color: #a5a5a5; }
+        .navPages-action:hover svg {
+          fill: #fff;
+          stroke: #fff; }
+      .navPages-action.browse {
+        margin-bottom: 15px; } }
+
+.navPages-action-moreIcon {
+  height: 0.57143rem;
+  width: 0.57143rem;
+  margin-left: 0.35714rem;
+  transform: rotate(-90deg); }
+  @media (min-width: 750px) {
+    .navPages-action-moreIcon {
+      transform: none; } }
+
+.navPage-childList {
+  display: block; }
+  @media (min-width: 750px) {
+    .navPage-childList {
+      border: 0;
+      display: block; } }
+
+.navPage-subMenu {
+  position: relative;
+  display: none;
+  outline: 0;
+  padding-left: 20px;
+  z-index: 9999; }
+  @media (min-width: 750px) {
+    .navPage-subMenu {
+      background-color: #990f04;
+      padding: 1.5rem 1.5rem 2.28571rem !important;
+      position: absolute;
+      text-align: left; }
+      .navPage-subMenu .navPages-action-moreIcon {
+        display: none; } }
+  .navPage-subMenu ul li {
+    width: 100%; }
+
+.navPage-childList-action {
+  font-weight: 400;
+  padding: 0 0 0.35714rem; }
+
+.navPages-quickSearch {
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 0.78571rem; }
+  @media (min-width: 750px) {
+    .navPages-quickSearch {
+      display: none; } }
+  .navPages-quickSearch > .container {
+    padding: 0; }
+  .navPages-quickSearch .form {
+    margin: 0; }
+  .navPages-quickSearch .form-field {
+    margin-bottom: 0; }
+    .navPages-quickSearch .form-field .fa-search {
+      padding-left: 10px; }
+    .navPages-quickSearch .form-field .button {
+      position: absolute;
+      right: 0;
+      border: 0;
+      margin: 0;
+      padding: 5px 15px;
+      width: auto;
+      top: 0;
+      height: 3em;
+      background: #990f04;
+      color: #fff;
+      border-radius: 0; }
+
+@media (min-width: 750px) {
+  .navPages-list--user {
+    display: none; } }
+
+.tag {
+  display: inline-block;
+  font-size: 1rem; }
+  .tag a {
+    color: #505050;
+    display: inline-block;
+    padding: 0.35714rem 0.5rem;
+    text-decoration: none; }
+    .tag a:hover {
+      color: #4f4f4f; }
+
+.price--rrp {
+  text-decoration: line-through; }
+
+.price.sale--price {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #208936;
+  display: block; }
+
+.card-body .card-text .price {
+  color: #208936;
+  font-weight: bold;
+  font-size: 1.4em;
+  display: inline-block; }
+  .card-body .card-text .price.price--rrp {
+    margin-right: 7px;
+    font-size: 1.1rem;
+    color: #636363;
+    font-weight: 700; }
+
+.card-body .card-text .price--rrpSaving {
+  display: block;
+  color: #990f04;
+  font-size: 1em;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.banner {
+  margin: 0 auto;
+  max-width: 87.14286rem;
+  width: 100%; }
+  .banner:before, .banner:after {
+    content: " ";
+    display: table; }
+  .banner:after {
+    clear: both; }
+  .banner + .banner {
+    margin-top: 1.5rem; }
+
+.cart .left {
+  float: left;
+  width: 100%; }
+  @media (min-width: 750px) {
+    .cart .left {
+      width: 68%;
+      margin-right: 2%; } }
+
+.cart .right {
+  float: right;
+  width: 100%;
+  background: #f3f3f3;
+  border: 1px solid #ccc;
+  padding: 13px; }
+  @media (min-width: 750px) {
+    .cart .right {
+      margin-top: 58px;
+      width: 30%;
+      padding: 0 13px 13px; } }
+
+.cart {
+  display: block;
+  margin-bottom: 1.5rem;
+  width: 100%; }
+  @media (min-width: 750px) {
+    .cart {
+      display: table; } }
+
+.address {
+  display: inline-block;
+  padding: 0 0.78571rem;
+  vertical-align: top;
+  width: 100%; }
+  @media (min-width: 551px) {
+    .address {
+      width: 50%; } }
+  @media (min-width: 1261px) {
+    .address {
+      width: 33.33333%; } }
+
+.login {
+  width: 100%; }
+
+.quickSearchResults {
+  margin-top: 1.5rem;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 50px;
+  margin: 0 auto;
+  background: #fff;
+  z-index: 9999;
+  display: none; }
+  @media (min-width: 750px) {
+    .quickSearchResults {
+      width: 77%; } }
+  .quickSearchResults .productGrid {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #fff;
+    max-height: 315px; }
+    .quickSearchResults .productGrid .product {
+      float: left;
+      width: 100%;
+      margin-bottom: 10px;
+      border: 1px solid #dfdfdf; }
+      .quickSearchResults .productGrid .product:nth-child(3n+2) {
+        margin: 0 0 10px; }
+  @media (min-width: 750px) {
+    .quickSearchResults {
+      margin-top: 0; } }
+  .quickSearchResults .modal-close {
+    top: -44px;
+    right: 40%;
+    background: #fff;
+    font-size: 25px; }
+  .quickSearchResults .price--rrpSaving {
+    display: none !important; }
+
+.icon--ratingFull svg {
+  fill: #f06337; }
+
+.rating--small {
+  display: inline-block; }
+  .rating--small .icon {
+    height: 1rem;
+    width: 1rem;
+    margin-top: -3px; }
+
+body {
+  padding-top: 91px; }
+  @media (min-width: 750px) {
+    body {
+      padding-top: 0; } }
+
+.cookiePopup {
+  background: rgba(61, 64, 66, 0.75);
+  width: 100%;
+  color: #fff;
+  padding: 7px 0;
+  position: fixed;
+  bottom: 0;
+  z-index: 999999999999; }
+  .cookiePopup.hide {
+    display: none; }
+  .cookiePopup a {
+    color: #fff; }
+  .cookiePopup .cookieText {
+    padding: 0 20px 0 0;
+    white-space: normal; }
+  .cookiePopup .closeCookie {
+    cursor: pointer;
+    float: right; }
+    .cookiePopup .closeCookie .fa-times-circle {
+      font-size: 1.2em;
+      vertical-align: middle;
+      padding-left: 5px; }
+    @media (max-width: 955px) {
+      .cookiePopup .closeCookie {
+        width: 100%;
+        text-align: center; } }
+
+.deliveryBanner {
+  background: #000000;
+  width: 100%;
+  float: none;
+  position: relative;
+  display: none;
+  z-index: 950;
+  text-align: center;
+  margin-top: 4px; }
+  @media (min-width: 750px) {
+    .deliveryBanner {
+      margin-top: 0px; } }
+  .deliveryBanner a {
+    text-decoration: none; }
+  .deliveryBanner span {
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 1000; }
+    @media (min-width: 750px) {
+      .deliveryBanner span {
+        font-size: 1.5rem; } }
+  .deliveryBanner.hide {
+    display: none; }
+
+.blackFridayBanner {
+  display: none;
+  float: left;
+  width: 100%;
+  background: #e31801;
+  color: #fff;
+  padding: 2px 0;
+  border-left: 0;
+  border-right: 0;
+  font-weight: bold;
+  position: absolute;
+  top: 87px;
+  text-align: center;
+  z-index: 99; }
+  @media (min-width: 750px) {
+    .blackFridayBanner {
+      position: relative;
+      top: 0;
+      height: 58px;
+      padding: 1px 0; } }
+  .blackFridayBanner a {
+    color: #FFF;
+    text-decoration: none; }
+  @media screen and (max-width: 880px) and (min-width: 750px) {
+    .blackFridayBanner .blackFridayCountdown {
+      font-size: .8em;
+      padding: 5px 0; } }
+  .blackFridayBanner .blackFriday--counting {
+    float: left;
+    width: 100%;
+    display: inline-block; }
+    @media (min-width: 750px) {
+      .blackFridayBanner .blackFriday--counting {
+        float: none;
+        width: 25%;
+        vertical-align: middle; } }
+  .blackFridayBanner .blackFriday--endsin {
+    display: inline-block;
+    float: none;
+    width: auto;
+    vertical-align: middle;
+    line-height: 26px;
+    font-size: 0.9em; }
+    @media (min-width: 750px) {
+      .blackFridayBanner .blackFriday--endsin {
+        float: left;
+        width: 25%;
+        line-height: 37px; } }
+  .blackFridayBanner .blackFriday--counting-hours,
+  .blackFridayBanner .blackFriday--counting-mins,
+  .blackFridayBanner .blackFriday--counting-secs {
+    display: inline-block;
+    width: 20%;
+    line-height: 10px;
+    font-size: .7em;
+    max-width: 50px;
+    vertical-align: middle; }
+    @media (min-width: 750px) {
+      .blackFridayBanner .blackFriday--counting-hours,
+      .blackFridayBanner .blackFriday--counting-mins,
+      .blackFridayBanner .blackFriday--counting-secs {
+        float: left;
+        line-height: 15px;
+        font-size: 1em;
+        max-width: none; } }
+  .blackFridayBanner .blackFriday--counting-number {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    font-size: 1.5em;
+    border-bottom: 1px solid  #fff;
+    padding-bottom: 4px;
+    margin-bottom: 1px; }
+  .blackFridayBanner .blackFriday--counting-text {
+    float: left;
+    width: 100%;
+    text-align: center; }
+  .blackFridayBanner .blackFriday--header {
+    float: left;
+    width: 100%;
+    font-size: 1.88em; }
+    @media (min-width: 750px) {
+      .blackFridayBanner .blackFriday--header {
+        float: none;
+        width: auto;
+        margin: 0 0 0 20px;
+        font-size: 2.5em;
+        display: inline-block;
+        vertical-align: middle; } }
+    .blackFridayBanner .blackFriday--header .split {
+      display: inline-block;
+      font-size: .5em;
+      vertical-align: middle;
+      line-height: 15px; }
+      @media (min-width: 750px) {
+        .blackFridayBanner .blackFriday--header .split {
+          line-height: 23px; } }
+      .blackFridayBanner .blackFriday--header .split.first {
+        padding-right: 0px;
+        border-right: 1px solid  #fff;
+        margin-right: 0px; }
+        @media (min-width: 750px) {
+          .blackFridayBanner .blackFriday--header .split.first {
+            padding-right: 18px;
+            margin-right: 10px; } }
+        .blackFridayBanner .blackFriday--header .split.first.hideSecond {
+          display: none; }
+          @media (min-width: 750px) {
+            .blackFridayBanner .blackFriday--header .split.first.hideSecond {
+              display: inline-block; } }
+          @media screen and (max-width: 988px) and (min-width: 750px) {
+            .blackFridayBanner .blackFriday--header .split.first.hideSecond {
+              display: none; } }
+        .blackFridayBanner .blackFriday--header .split.first.large {
+          font-size: 1.4rem;
+          border-right: 0px;
+          padding-bottom: 8px; }
+          @media (min-width: 750px) {
+            .blackFridayBanner .blackFriday--header .split.first.large {
+              font-size: 2rem;
+              border-right: 1px solid  #fff;
+              padding-bottom: 0px; } }
+      .blackFridayBanner .blackFriday--header .split .splitTop {
+        font-size: 1.5em; }
+    .blackFridayBanner .blackFriday--header a {
+      color: #FFF;
+      text-decoration: none; }
+  .blackFridayBanner.show {
+    display: block; }
+
+@media (min-width: 750px) {
+  .header .navPages-container .navPages ul .navPages-item.Kitchen.Taps > .navPages-action {
+    padding: 4px 10%; } }
+
+.header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1010;
+  border-bottom: 1px solid #990f04;
+  border-top: 3px solid #205689;
+  text-align: center; }
+  @media (min-width: 750px) {
+    .header {
+      overflow: visible;
+      position: relative;
+      border: 0;
+      height: auto;
+      z-index: 20; } }
+  .header .topNavigation {
+    background: #990f04; }
+  .header .container {
+    white-space: nowrap; }
+  .header .phoneIcon {
+    height: 3.92857rem;
+    font-size: 2em;
+    left: 60px;
+    position: absolute;
+    z-index: 50; }
+    @media (min-width: 750px) {
+      .header .phoneIcon {
+        display: none; } }
+    .header .phoneIcon .fa-phone {
+      margin: 13px 0; }
+  .header .searchIcon {
+    position: absolute;
+    top: 8px;
+    right: 16%;
+    font-size: 1.75em;
+    z-index: 50; }
+    @media (min-width: 750px) {
+      .header .searchIcon {
+        display: none; } }
+  @media (min-width: 750px) {
+    .header .navPages-container {
+      background: #f2f2f2;
+      border-top: 1px solid #d7d6d6;
+      border-bottom: 1px solid #d7d6d6; }
+      .header .navPages-container .navPages ul .navPages-item {
+        border-left: 1px solid #d7d6d6; }
+         .header .navPages-container .navPages ul .navPages-item:hover {
+          background: #e0e0e0; }
+        .header .navPages-container .navPages ul .navPages-item .navPages-action {
+          color: #000000;
+          text-transform: none;
+          padding: 4px 5%; }
+          .header .navPages-container .navPages ul .navPages-item .navPages-action svg {
+            fill: #444444;
+            stroke: #444444; }
+          .header .navPages-container .navPages ul .navPages-item .navPages-action.browse {
+            color: #000;
+            padding: 9px 5px; }
+        .header .navPages-container .navPages ul .navPages-item:nth-child(1) {
+          border-left: 0; } }
+
+.header-logo {
+  font-size: 0;
+  text-align: center; }
+  @media (min-width: 750px) {
+    .header-logo {
+      padding: 0; } }
+  .header-logo > a {
+    color: #4f4f4f;
+    display: inline-block;
+    padding: 0.78571rem 0;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    z-index: 20; }
+    .header-logo > a:before, .header-logo > a:after {
+      content: " ";
+      display: table; }
+    .header-logo > a:after {
+      clear: both; }
+    @media (min-width: 750px) {
+      .header-logo > a {
+        background: none;
+        border-bottom: 0;
+        display: inline;
+        padding: 0; } }
+    .header-logo > a:hover {
+      color: #a5a5a5; }
+    .header-logo > a:active {
+      color: #a5a5a5; }
+
+.header-logo--left {
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0; }
+  @media (min-width: 750px) {
+    .header-logo--left {
+      max-width: 15%; } }
+
+.headerSearch {
+  width: 100%;
+  display: none;
+  position: absolute;
+  top: 88px;
+  left: 0;
+  padding: 8px;
+  background: #fff;
+  border-bottom: 1px solid #205689;
+  z-index: 1; }
+  .headerSearch.show {
+    display: inline-block; }
+  @media (min-width: 750px) {
+    .headerSearch {
+      width: 49%;
+      padding: 0;
+      border: 0;
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      top: auto;
+      left: auto;
+      z-index: 9999; } }
+  .headerSearch .form {
+    margin: 0; }
+    .headerSearch .form .form-field {
+      margin: 0;
+      position: relative; }
+    @media (min-width: 750px) {
+      .headerSearch .form {
+        width: 80%;
+        margin: 25px auto; } }
+  .headerSearch .form-field .form-input {
+    border-width: 3px;
+    border-radius: 0;
+    border-color: #c0c0c0;
+    color: #5a5a5a;
+    font-style: italic; }
+  .headerSearch .form-field .button {
+    position: absolute;
+    right: 3px;
+    border: 0;
+    margin: 0;
+    padding: 0 30px;
+    width: auto;
+    top: 3px;
+    height: 2.15em;
+    font-size: 1.2em;
+    background: #990f04;
+    color: #fff;
+    border-radius: 0;
+    font-weight: bold; }
+    .headerSearch .form-field .button .fa {
+      margin-left: 10px; }
+  @media (max-width: 980px) and (min-width: 750px) {
+    .headerSearch {
+      width: 45%; }
+      .headerSearch .form-field .form-input {
+        font-size: .9em; }
+      .headerSearch .form-field .button {
+        padding: 0 10px;
+        width: 110px; } }
+
+.rightInformation {
+  width: 100%;
+  position: absolute;
+  background: #fff;
+  top: 56px;
+  left: 0;
+  border-bottom: 1px solid #205689;
+  font-weight: bold; }
+  .rightInformation .delivery, .rightInformation .phone {
+    padding: 5px 0; }
+    .rightInformation .delivery a, .rightInformation .phone a {
+      text-decoration: none; }
+  .rightInformation .phone {
+    display: none; }
+  @media (min-width: 750px) {
+    .rightInformation {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      width: 35%;
+      top: 0;
+      border: 0;
+      font-weight: normal; }
+      .rightInformation .delivery, .rightInformation .phone {
+        float: left;
+        width: 50%;
+        text-align: center;
+        padding: 0;
+        display: block; }
+        .rightInformation .delivery span, .rightInformation .phone span {
+          float: left;
+          width: 100%;
+          text-transform: uppercase; }
+        .rightInformation .delivery .free, .rightInformation .delivery .number, .rightInformation .phone .free, .rightInformation .phone .number {
+          font-size: 1.75em;
+          line-height: 25px;
+          color: #990f04; }
+        .rightInformation .delivery .mainland, .rightInformation .delivery .experts, .rightInformation .phone .mainland, .rightInformation .phone .experts {
+          letter-spacing: 2px;
+          font-size: .85em; } }
+  @media (min-width: 750px) and (max-width: 980px) {
+    .rightInformation {
+      width: 40%; }
+      .rightInformation .delivery .free,
+      .rightInformation .phone .number {
+        font-size: 1.5em; } }
+
+.header-logo-image {
+  max-height: 2.8rem; }
+  @media (min-width: 750px) {
+    .header-logo-image {
+      max-height: 83px; } }
+
+.mobileMenu-toggle {
+  height: 3.92857rem;
+  width: 3.92857rem;
+  display: inline-block;
+  font-size: 0;
+  left: 0;
+  overflow: hidden;
+  padding: 0 1.28571rem;
+  position: absolute;
+  z-index: 50; }
+  @media (min-width: 750px) {
+    .mobileMenu-toggle {
+      display: none; } }
+  .mobileMenu-toggle .mobileMenu-toggleIcon,
+  .mobileMenu-toggle .mobileMenu-toggleIcon::before,
+  .mobileMenu-toggle .mobileMenu-toggleIcon::after {
+    background: #2d2d2d;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    transform: rotate(0deg);
+    transition: transform 100ms ease-in, top 100ms ease-in 150ms, bottom 100ms ease-in 150ms;
+    width: 1.42857rem; }
+  .mobileMenu-toggle .mobileMenu-toggleIcon {
+    top: 1.64286rem;
+    transition: background-color 10ms ease-in 100ms; }
+  .mobileMenu-toggle .mobileMenu-toggleIcon::before {
+    top: -0.5rem; }
+  .mobileMenu-toggle .mobileMenu-toggleIcon::after {
+    bottom: -0.5rem; }
+  .mobileMenu-toggle:after {
+    content: 'Menu';
+    display: block;
+    font-size: 9px;
+    width: 100%;
+    position: absolute;
+    left: 1px;
+    bottom: 9px; }
+
+.homepage .homeHead {
+  clear: both;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px; }
+  .homepage .homeHead .border {
+    background: #990f04;
+    height: 1px;
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0; }
+  .homepage .homeHead .title {
+    margin: 0 auto;
+    display: inline-block;
+    background: #fff;
+    width: auto;
+    position: relative;
+    padding: 0 10px;
+    font-size: 1em;
+    text-transform: uppercase; }
+    @media (min-width: 750px) {
+      .homepage .homeHead .title {
+        font-size: 1.5em; } }
+    @media screen and (min-width: 1200px) {
+      .homepage .homeHead .title {
+        font-size: 1.5em; } }
+
+.homepage .sinksTaps {
+  float: left;
+  width: 100%; }
+  .homepage .sinksTaps .HomeHead-container {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    gap: 10px; }
+  .homepage .sinksTaps .hh-cards-tall {
+    flex: 0 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .homepage .sinksTaps .hh-cards-tall img {
+      min-height: 505px; }
+    .homepage .sinksTaps .hh-cards-tall .hh-cards-tall-tablet {
+      display: none; }
+    @media (max-width: 1200px) {
+      .homepage .sinksTaps .hh-cards-tall .hh-cards-tall-pc {
+        display: none; }
+      .homepage .sinksTaps .hh-cards-tall .hh-cards-tall-tablet {
+        display: inline-block;
+        min-height: 0px; } }
+  .homepage .sinksTaps .hh-cards-medium {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 0 69%;
+    gap: 7px; }
+  .homepage .sinksTaps .hh-cards-medium .hhcm-cards {
+    flex: 0 49%;
+    text-align: center; }
+  .homepage .sinksTaps .hh-cards-medium .hhcm-cards img {
+    width: 100%; }
+  @media only screen and (max-width: 1200px) {
+    .homepage .sinksTaps .HomeHead-container {
+      display: block; }
+      .homepage .sinksTaps .HomeHead-container .hh-cards-tall {
+        padding-bottom: 8px; } }
+  @media (max-width: 750px) {
+    .homepage .sinksTaps .HomeHead-container {
+      flex-direction: column; } }
+  @media only screen and (max-width: 750px) {
+    .homepage .sinksTaps .HomeHead-container {
+      flex-direction: column; }
+      .homepage .sinksTaps .HomeHead-container .hh-cards-tall {
+        padding-top: 20px; } }
+  @media only screen and (max-width: 520px) {
+    .homepage .sinksTaps .hh-cards-medium {
+      display: block; }
+      .homepage .sinksTaps .hh-cards-medium .hhcm-cards {
+        padding-bottom: 8px; }
+    .homepage .sinksTaps .hh-cards-tall img {
+      min-height: 380px; } }
+  .homepage .sinksTaps .quickSearch {
+    float: left;
+    width: 100%;
+    border: 2px solid #2b5689;
+    border-radius: 10px;
+    background: #efefef; }
+    @media (min-width: 750px) {
+      .homepage .sinksTaps .quickSearch {
+        margin-right: .5%;
+        width: 33%; } }
+    .homepage .sinksTaps .quickSearch .title {
+      background: #efefef;
+      margin-top: 2%; }
+    .homepage .sinksTaps .quickSearch .border {
+      margin-top: 1.75%;
+      width: 95%;
+      left: 10px; }
+      @media (min-width: 750px) {
+        .homepage .sinksTaps .quickSearch .border {
+          margin-top: 3%; } }
+  .homepage .sinksTaps input#submit {
+    display: block;
+    padding: 3% 11%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+    background: #eb2c22;
+    border: 1px solid #e22c21;
+    border-radius: 10px; }
+    @media (min-width: 750px) {
+      .homepage .sinksTaps input#submit {
+        font-size: 2vw;
+        margin: 0 auto; } }
+    @media screen and (min-width: 1200px) {
+      .homepage .sinksTaps input#submit {
+        font-size: 2em;
+        margin: 0 auto; } }
+
+.homepage .shopBrand-class {
+  float: left;
+  width: 100%; }
+  .homepage .shopBrand-class .brands-flex {
+    display: flex;
+    padding: 2% 0%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px; }
+    .homepage .shopBrand-class .brands-flex .shopb {
+      text-align: center; }
+      .homepage .shopBrand-class .brands-flex .shopb a {
+        text-decoration: none; }
+    .homepage .shopBrand-class .brands-flex .brandbox {
+      flex: 0 30%; }
+      @media (min-width: 551px) {
+        .homepage .shopBrand-class .brands-flex .brandbox {
+          flex: 0 16%; } }
+      .homepage .shopBrand-class .brands-flex .brandbox .card-image {
+        width: 75%; }
+
+.homepage .sinksTaps2 {
+  float: left;
+  width: 100%;
+  padding-bottom: 13px; }
+  .homepage .sinksTaps2 .hh-cards-medium {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 0 69%;
+    gap: 7px; }
+  .homepage .sinksTaps2 .hh-cards-medium .hhcm-cards {
+    flex: 0 32%;
+    text-align: center; }
+  .homepage .sinksTaps2 .hh-cards-medium .hhcm-cards img {
+    width: 100%; }
+  @media only screen and (max-width: 1200px) {
+    .homepage .sinksTaps2 .HomeHead-container {
+      display: block; } }
+  @media (max-width: 750px) {
+    .homepage .sinksTaps2 .HomeHead-container {
+      flex-direction: column; } }
+  @media only screen and (max-width: 750px) {
+    .homepage .sinksTaps2 .HomeHead-container {
+      flex-direction: column; } }
+  @media only screen and (max-width: 520px) {
+    .homepage .sinksTaps2 .hh-cards-medium {
+      display: block;
+      margin-top: 10px; }
+      .homepage .sinksTaps2 .hh-cards-medium .hhcm-cards {
+        padding-bottom: 8px; } }
+
+.homepage .brands {
+  float: left;
+  width: 100%;
+  margin: 0 0 10px;
+  list-style: none; }
+  .homepage .brands .brand {
+    float: left;
+    width: 32.6666%;
+    border: 1px solid #d7d6d6;
+    height: 150px;
+    margin-bottom: 5px;
+    display: table;
+    margin-right: 1%; }
+    .homepage .brands .brand:nth-child(3n) {
+      margin-right: 0; }
+    .homepage .brands .brand .card {
+      margin: 0;
+      vertical-align: middle;
+      display: table-cell;
+      width: 100%; }
+      .homepage .brands .brand .card .card-image {
+        max-width: 150px; }
+    .homepage .brands .brand .card-body {
+      display: none; }
+  @media (min-width: 750px) {
+    .homepage .brands .brand {
+      float: left;
+      width: 16.25%;
+      border: 1px solid #d7d6d6;
+      height: 180px;
+      margin-bottom: 5px;
+      display: table;
+      margin-right: .5%; }
+      .homepage .brands .brand:nth-child(3n) {
+        margin-right: .5%; }
+      .homepage .brands .brand:nth-child(6n) {
+        margin-right: 0; }
+        .homepage .brands .brand:nth-child(6n) .card .card-image {
+          max-width: 110px; } }
+
+.homepage .customersThink {
+  float: left;
+  width: 100%; }
+  .homepage .customersThink .customers {
+    float: left;
+    width: 100%;
+    list-style: none;
+    margin: 30px 0; }
+
+.homepage .whyBuy {
+  float: left;
+  width: 100%; }
+  .homepage .whyBuy ul {
+    list-style: none;
+    float: left;
+    width: 100%;
+    margin: 0; }
+    .homepage .whyBuy ul li {
+      width: 50%;
+      float: left;
+      text-align: center; }
+      @media (min-width: 750px) {
+        .homepage .whyBuy ul li {
+          width: 20%;
+          float: left; } }
+      .homepage .whyBuy ul li img {
+        display: block;
+        margin: 25px auto;
+        border: 3px solid #990f04;
+        border-radius: 50%; }
+      .homepage .whyBuy ul li .title {
+        display: table;
+        min-height: 70px;
+        width: 100%; }
+        .homepage .whyBuy ul li .title span {
+          width: 100%;
+          padding: 10px 0;
+          font-size: 1.2em;
+          font-weight: bold;
+          display: table-cell;
+          vertical-align: middle; }
+      .homepage .whyBuy ul li:nth-child(odd) {
+        clear: left; }
+        @media (min-width: 750px) {
+          .homepage .whyBuy ul li:nth-child(odd) {
+            clear: none; } }
+
+.navPages ul {
+  background-color: #fff; }
+  @media (min-width: 551px) {
+    .navPages ul {
+      background: none; } }
+
+.navPages ul .navPages-item {
+  padding: 0 2%;
+  border-bottom: 1px solid #dfdfdf; }
+  @media (min-width: 551px) {
+    .navPages ul .navPages-item {
+      padding: 0;
+      border: none; } }
+
+.navPages-action-moreIcon {
+  display: none; }
+  @media (min-width: 551px) {
+    .navPages-action-moreIcon {
+      display: inline-block; } }
+
+.body {
+  margin-bottom: 6rem;
+  margin-top: .5rem !important;
+  float: left;
+  width: 100%; }
+
+.page {
+  max-width: none;
+  width: auto; }
+
+/* START */
+
+/* END */
+
+.about-perrin-rowe p {
+  font-size: 1.2em; }
+
+.about-perrin-rowe h2 {
+  font-weight: bold;
+  text-align: center;
+  float: left;
+  width: 100%;
+  font-family: Karla,Arial,Helvetica,sans-serif;
+  color: #4f4f4f;
+  font-size: 2em;
+  margin: 0 0 20px; }
+
+/* EXIT INTENT */
+.black-friday-popup {
+  position: relative;
+  background: #FFF;
+  width: auto;
+  max-width: 750px;
+  margin: 20px auto; }
+
+/* END EXIT INTENT */
+div#consent-manager-update-banner {
+  display: none; }
+
+.footer {
+  background-color: white;
+  border-top: 5px solid #990f04;
+  padding: 3rem 0;
+  position: relative;
+  float: left;
+  width: 100%; }
+  .footer .scrollTop {
+    position: absolute;
+    top: -38px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: #990f04;
+    color: #fff;
+    width: 110px;
+    font-size: .8em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 4px 4px 0 0; }
+    .footer .scrollTop .fa {
+      width: 100%;
+      padding-top: 5px; }
+  .footer .securityInfo {
+    text-align: center;
+    border-top: 1px solid #d7d6d6;
+    margin-top: 56px; }
+    @media (min-width: 750px) {
+      .footer .securityInfo {
+        margin-top: 0; } }
+    .footer .securityInfo .cards img {
+      margin: 0 auto;
+      display: block;
+      border: 1px solid #d7d6d6;
+      border-bottom: 0;
+      background: #fff;
+      margin-top: -56px;
+      padding: 16px; }
+    .footer .securityInfo .guaranteed {
+      font-size: .95em;
+      float: left;
+      width: 100%;
+      padding-bottom: 6px; }
+      .footer .securityInfo .guaranteed .fa {
+        padding-right: 5px; }
+    .footer .securityInfo .companyDetails {
+      background: #ececec;
+      border-top: 1px solid #d7d6d6;
+      border-bottom: 1px solid #d7d6d6;
+      width: 100%;
+      float: left;
+      font-size: .85em;
+      padding: 15px 0; }
+      .footer .securityInfo .companyDetails .details {
+        display: block; }
+    .footer .securityInfo .partOf {
+      float: left;
+      width: 100%;
+      padding: 5px 0;
+      font-size: .85em; }
+
+.footer-info {
+  max-width: none;
+  width: auto;
+  font-size: 0; }
+
+.footer-info-col {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  width: 100%;
+  float: left;
+  color: #505050;
+  display: inline-block;
+  float: none;
+  font-size: .9rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  vertical-align: top;
+  overflow: hidden; }
+  @media (min-width: 551px) {
+    .footer-info-col {
+      text-align: left;
+      width: 50%; } }
+  @media (min-width: 750px) {
+    .footer-info-col {
+      width: 33.33334%; } }
+  .footer-info-col > :first-child {
+    margin-top: 0; }
+  .footer-info-col > :last-child {
+    margin-bottom: 0; }
+  .footer-info-col address {
+    font-style: normal; }
+  .footer-info-col .form-input {
+    border-radius: 0; }
+  .footer-info-col .button {
+    background: #990f04;
+    border: 0; }
+  .footer-info-col p {
+    color: #505050; }
+  .footer-info-col.newsletterSubscription .byClick {
+    margin-top: 10px;
+    display: block;
+    font-size: .8rem; }
+
+@media (min-width: 750px) {
+  .footer-info-col--small {
+    width: 16.66667%; } }
+
+.footer-info-heading {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #505050; }
+
+.footer-info-list {
+  list-style: none;
+  margin-left: 0; }
+  .footer-info-list a {
+    color: #505050;
+    text-decoration: none; }
+    .footer-info-list a:hover {
+      color: #4f4f4f; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1220px;
+  position: relative;
+  width: 100%;
+  padding: 0 10px; }
+
+.blog {
+  margin-bottom: 1.5rem; }
+  @media (min-width: 750px) {
+    .blog {
+      margin: auto;
+      width: 100%; } }
+  .blog + .blog {
+    border-top: 1px solid #e8e8e8;
+    margin-top: 3rem;
+    padding-top: 3rem; }
+
+.brandGrid {
+  list-style: none;
+  margin-left: 0;
+  margin: 0;
+  list-style: none;
+  float: left;
+  width: 100%; }
+  .brandGrid ul {
+    list-style: none;
+    margin-bottom: 0; }
+  .brandGrid .brand {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    width: 50%;
+    float: none;
+    display: inline-block;
+    font-size: 1rem;
+    vertical-align: top;
+    margin: 0 1% 10px 0;
+    float: left;
+    text-align: center;
+    height: 180px;
+    border: 1px solid #ccc;
+    display: table;
+    width: 49%; }
+    .brandGrid .brand .card-title {
+      display: none; }
+    @media (min-width: 551px) {
+      .brandGrid .brand {
+        width: 32.33333%; }
+        .brandGrid .brand:nth-child(3n) {
+          margin-right: 0; } }
+    @media (min-width: 750px) {
+      .brandGrid .brand {
+        width: 19.20%; }
+        .brandGrid .brand:nth-child(3n) {
+          margin-right: 1%; }
+        .brandGrid .brand:nth-child(5n) {
+          margin-right: 0; } }
+    .brandGrid .brand a {
+      text-decoration: none;
+      display: table-cell;
+      vertical-align: middle; }
+    .brandGrid .brand .card-image {
+      text-align: center;
+      display: table-cell;
+      margin: 0 auto;
+      vertical-align: middle; }
+    .brandGrid .brand .card-title {
+      text-align: center; }
+
+.productGrid {
+  margin: 0;
+  font-size: 0; }
+  .productGrid .product {
+    float: none;
+    width: 48%;
+    display: inline-block;
+    font-size: 1rem;
+    vertical-align: top;
+    border: 1px solid #d7d6d6;
+    margin: 0 4% 10px 0; }
+    .productGrid .product:nth-child(2n) {
+      margin: 0 0 10px 0; }
+    @media (min-width: 750px) {
+      .productGrid .product {
+        margin: 0 0 10px;
+        overflow: visible; } }
+    @media (min-width: 551px) {
+      .productGrid .product {
+        width: 32.66666%;
+        margin: 0 0 10px 0; }
+        .productGrid .product:nth-child(3n+2) {
+          margin: 0 1% 1% 1%; } }
+    .productGrid .product .card {
+      margin: 0.7rem 0;
+      position: relative; }
+      .productGrid .product .card .card-figure {
+        min-height: 300px; }
+        .productGrid .product .card .card-figure .card-image {
+          max-height: 300px;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translateX(-50%) translateY(-50%);
+          -webkit-transform: translateX(-50%) translateY(-50%);
+          -ms-transform: translateX(-50%) translateY(-50%);
+          /*correction*/ }
+      .productGrid .product .card .card-body .card-text {
+        color: #505050; }
+      .productGrid .product .card .card-body .price-section {
+        min-height: 50px;
+        line-height: 1em; }
+      .productGrid .product .card .percentageDiscount {
+        display: none; }
+      .productGrid .product .card .brandCard.one {
+        position: absolute;
+        right: 12px;
+        bottom: 35px;
+        padding: 10px;
+        border-radius: 5px;
+        float: left; }
+        .productGrid .product .card .brandCard.one img {
+          position: absolute;
+          max-width: 95px;
+          right: 0px;
+          text-align: center;
+          background: rgba(255, 255, 255, 0.7);
+          padding: 5px;
+          border-radius: 10px; }
+      .productGrid .product .card .brandCard.two {
+        position: absolute;
+        right: 12px;
+        bottom: 30px;
+        padding: 15px;
+        border-radius: 5px;
+        float: left; }
+        .productGrid .product .card .brandCard.two img {
+          position: absolute;
+          max-width: 100px;
+          right: 0px;
+          text-align: center;
+          padding: 5px;
+          border-radius: 10px; }
+      .productGrid .product .card .brandCard.three {
+        position: absolute;
+        right: 12px;
+        bottom: 50px;
+        padding: 10px;
+        border-radius: 5px;
+        float: left; }
+        .productGrid .product .card .brandCard.three img {
+          position: absolute;
+          max-width: 100px;
+          right: 0px;
+          text-align: center;
+          padding: 5px;
+          border-radius: 10px; }
+    .productGrid .product .finishesAvailable {
+      float: left;
+      width: 100%;
+      text-align: center;
+      background: #f5f4f4;
+      border-top: 1px solid #d7d6d6;
+      font-size: .9em;
+      padding: 2px 0;
+      margin-top: 5px;
+      font-weight: bold; }
+    .productGrid .product .finishesAvailable {
+      display: none; }
+    .productGrid .product:hover .card-title a {
+      color: #a5a5a5; }
+
+ .homepage .productGrid .product .card-body .price.sale--price:after {
+  font-size: .6em;
+  color: #636363;
+  line-height: 26px;
+  vertical-align: middle;
+  content: "|";
+  display: inline-block;
+  padding-right: 2px;
+  padding-left: 6px; }
+
+.product {
+  overflow: hidden; }
+
+.account {
+  margin-bottom: 1.5rem; }
+
+/* jsTree default theme */
+
+@media (min-width: 750px) {
+  .container-desktop {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1220px;
+    position: relative;
+    width: 100%;
+    padding: 0 10px; } }
+
+.homepage .whyBuy ul li img {
+  max-width: 80px; }
+
+.homepage .whyBuy li p {
+  padding: 0px 10px; }
+
+.flex-main {
+  display: inline-flex;
+  /* height: 100vh; */
+  margin: 0;
+  width: 100%; }
+
+.flex-main > div {
+  flex: 1;
+  display: inline-flex;
+  width: 100%; }
+
+.flex-main .left {
+  background: #850102;
+  width: 30%;
+  color: #fff;
+  padding: 10px 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1.2rem; }
+
+.flex-main .middle {
+  background: #9e060b;
+  width: 40%;
+  flex: 0 0 auto;
+  /* width: 25%; */
+  color: #fff;
+  padding: 10px 22px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1.2rem;
+  border-left: 1px solid #760303;
+  border-right: 1px solid #760303; }
+
+.flex-main .right span, .flex-main .middle span, .flex-main .left .zon2 {
+  font-size: 12px; }
+
+.flex-main .right {
+  background: #850102;
+  width: 30%;
+  color: #fff;
+  padding: 10px 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1.2rem; }
+
+.welcomeSinks .center {
+  text-align: center;
+  padding-bottom: 20px; }
+
+@media only screen and (max-width: 980px) {
+  .flex-main > div {
+    flex: 1;
+    display: block;
+    width: 100%; }
+  .flex-main .right, .flex-main .left, .flex-main .middle {
+    width: 100%; } }
